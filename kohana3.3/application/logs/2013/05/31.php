@@ -1,0 +1,185 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2013-05-31 00:01:03 --- CRITICAL: ErrorException [ 8 ]: Array to string conversion ~ APPPATH\classes\Controller\Twitter.php [ 16 ] in C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php:16
+2013-05-31 00:01:03 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(16): Kohana_Core::error_handler(8, 'Array to string...', 'C:\wamp\www\koh...', 16, Array)
+#1 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#4 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#7 {main} in C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php:16
+2013-05-31 00:02:08 --- CRITICAL: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\Controller\Twitter.php [ 12 ] in C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php:12
+2013-05-31 00:02:08 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(12): Kohana_Core::error_handler(8, 'Trying to get p...', 'C:\wamp\www\koh...', 12, Array)
+#1 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#4 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#7 {main} in C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php:12
+2013-05-31 00:11:09 --- CRITICAL: ErrorException [ 8 ]: Array to string conversion ~ APPPATH\classes\Controller\Twitter.php [ 16 ] in C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php:16
+2013-05-31 00:11:09 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(16): Kohana_Core::error_handler(8, 'Array to string...', 'C:\wamp\www\koh...', 16, Array)
+#1 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#4 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#7 {main} in C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php:16
+2013-05-31 00:22:26 --- CRITICAL: ErrorException [ 8 ]: Undefined index: username ~ APPPATH\views\user\register.php [ 12 ] in C:\wamp\www\kohana3.3\application\views\user\register.php:12
+2013-05-31 00:22:26 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\views\user\register.php(12): Kohana_Core::error_handler(8, 'Undefined index...', 'C:\wamp\www\koh...', 12, Array)
+#1 C:\wamp\www\kohana3.3\system\classes\Kohana\View.php(61): include('C:\wamp\www\koh...')
+#2 C:\wamp\www\kohana3.3\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\wamp\www\koh...', Array)
+#3 C:\wamp\www\kohana3.3\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\wamp\www\kohana3.3\system\classes\Kohana\Response.php(160): Kohana_View->__toString()
+#5 C:\wamp\www\kohana3.3\application\classes\Controller\User.php(36): Kohana_Response->body(Object(View))
+#6 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_User->action_register()
+#7 [internal function]: Kohana_Controller->execute()
+#8 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_User))
+#9 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#10 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#11 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#12 {main} in C:\wamp\www\kohana3.3\application\views\user\register.php:12
+2013-05-31 00:28:58 --- CRITICAL: ErrorException [ 1 ]: Call to a member function uri() on a non-object ~ SYSPATH\classes\Kohana\Form.php [ 42 ] in :
+2013-05-31 00:28:58 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :
+2013-05-31 02:20:04 --- CRITICAL: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\Controller\Twitter.php [ 16 ] in C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php:16
+2013-05-31 02:20:04 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(16): Kohana_Core::error_handler(8, 'Trying to get p...', 'C:\wamp\www\koh...', 16, Array)
+#1 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#4 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#7 {main} in C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php:16
+2013-05-31 02:21:23 --- CRITICAL: ErrorException [ 2 ]: json_decode() expects parameter 1 to be string, array given ~ APPPATH\classes\Controller\Twitter.php [ 18 ] in :
+2013-05-31 02:21:23 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'json_decode() e...', 'C:\wamp\www\koh...', 18, Array)
+#1 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(18): json_decode(Array)
+#2 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#3 [internal function]: Kohana_Controller->execute()
+#4 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#8 {main} in :
+2013-05-31 02:22:20 --- CRITICAL: ErrorException [ 2 ]: json_decode() expects parameter 1 to be string, array given ~ APPPATH\classes\Controller\Twitter.php [ 18 ] in :
+2013-05-31 02:22:20 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'json_decode() e...', 'C:\wamp\www\koh...', 18, Array)
+#1 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(18): json_decode(Array)
+#2 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#3 [internal function]: Kohana_Controller->execute()
+#4 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#8 {main} in :
+2013-05-31 02:25:16 --- CRITICAL: ErrorException [ 2 ]: json_decode() expects parameter 1 to be string, array given ~ APPPATH\classes\Controller\Twitter.php [ 18 ] in :
+2013-05-31 02:25:16 --- DEBUG: #0 [internal function]: Kohana_Core::error_handler(2, 'json_decode() e...', 'C:\wamp\www\koh...', 18, Array)
+#1 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(18): json_decode(Array)
+#2 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#3 [internal function]: Kohana_Controller->execute()
+#4 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#6 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#7 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#8 {main} in :
+2013-05-31 02:31:45 --- CRITICAL: ErrorException [ 8 ]: Trying to get property of non-object ~ APPPATH\classes\Controller\Twitter.php [ 16 ] in C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php:16
+2013-05-31 02:31:45 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(16): Kohana_Core::error_handler(8, 'Trying to get p...', 'C:\wamp\www\koh...', 16, Array)
+#1 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#2 [internal function]: Kohana_Controller->execute()
+#3 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#4 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#6 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#7 {main} in C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php:16
+2013-05-31 03:00:58 --- CRITICAL: EpiTwitterBadRequestException [ 400 ]: {"errors":[{"message":"Bad Authentication data","code":215}]} ~ APPPATH\helpers\EpiTwitter.php [ 254 ] in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 03:00:58 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(219): EpiTwitterException::raise(Object(EpiCurlManager), false)
+#1 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(120): EpiTwitterJson->__get('response')
+#2 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(37): EpiTwitter->request('GET', '/friends/list.j...', Array)
+#3 C:\wamp\www\kohana3.3\application\classes\Twitter.php(108): EpiTwitter->get('/friends/list.j...', Array)
+#4 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(16): Twitter->get_friends_list()
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#6 [internal function]: Kohana_Controller->execute()
+#7 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#8 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#10 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#11 {main} in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 04:47:25 --- CRITICAL: EpiTwitterBadRequestException [ 400 ]: {"errors":[{"message":"Bad Authentication data","code":215}]} ~ APPPATH\helpers\EpiTwitter.php [ 254 ] in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 04:47:25 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(219): EpiTwitterException::raise(Object(EpiCurlManager), false)
+#1 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(120): EpiTwitterJson->__get('response')
+#2 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(37): EpiTwitter->request('GET', '/search/tweets....', Array)
+#3 C:\wamp\www\kohana3.3\application\classes\Twitter.php(133): EpiTwitter->get('/search/tweets....', Array)
+#4 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(17): Twitter->search_tweets('posting to twit...')
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#6 [internal function]: Kohana_Controller->execute()
+#7 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#8 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#10 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#11 {main} in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 04:56:53 --- CRITICAL: EpiTwitterNotFoundException [ 404 ]: {"errors":[{"message":"Sorry, that page does not exist","code":34}]} ~ APPPATH\helpers\EpiTwitter.php [ 260 ] in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 04:56:53 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(219): EpiTwitterException::raise(Object(EpiCurlManager), false)
+#1 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(120): EpiTwitterJson->__get('response')
+#2 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(37): EpiTwitter->request('GET', 'statuses/retwee...', NULL)
+#3 C:\wamp\www\kohana3.3\application\classes\Twitter.php(143): EpiTwitter->get('statuses/retwee...')
+#4 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(18): Twitter->get_retweets()
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#6 [internal function]: Kohana_Controller->execute()
+#7 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#8 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#10 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#11 {main} in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 06:01:37 --- CRITICAL: EpiTwitterNotFoundException [ 404 ]: {"errors":[{"message":"Sorry, that page does not exist","code":34}]} ~ APPPATH\helpers\EpiTwitter.php [ 260 ] in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 06:01:37 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(219): EpiTwitterException::raise(Object(EpiCurlManager), false)
+#1 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(120): EpiTwitterJson->__get('response')
+#2 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(37): EpiTwitter->request('GET', '/user.json', NULL)
+#3 C:\wamp\www\kohana3.3\application\classes\Twitter.php(83): EpiTwitter->get('/user.json')
+#4 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(18): Twitter->get_retweets()
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#6 [internal function]: Kohana_Controller->execute()
+#7 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#8 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#10 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#11 {main} in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 06:02:56 --- CRITICAL: EpiTwitterNotFoundException [ 404 ]: {"errors":[{"message":"Sorry, that page does not exist","code":34}]} ~ APPPATH\helpers\EpiTwitter.php [ 260 ] in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 06:02:56 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(219): EpiTwitterException::raise(Object(EpiCurlManager), false)
+#1 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(120): EpiTwitterJson->__get('response')
+#2 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(37): EpiTwitter->request('GET', 'https://userstr...', NULL)
+#3 C:\wamp\www\kohana3.3\application\classes\Twitter.php(83): EpiTwitter->get('https://userstr...')
+#4 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(18): Twitter->get_retweets()
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#6 [internal function]: Kohana_Controller->execute()
+#7 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#8 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#10 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#11 {main} in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 06:20:27 --- CRITICAL: EpiTwitterNotFoundException [ 404 ]: {"errors":[{"message":"Sorry, that page does not exist","code":34}]} ~ APPPATH\helpers\EpiTwitter.php [ 260 ] in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 06:20:27 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(219): EpiTwitterException::raise(Object(EpiCurlManager), false)
+#1 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(120): EpiTwitterJson->__get('response')
+#2 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(37): EpiTwitter->request('GET', '/statuses/direc...', NULL)
+#3 C:\wamp\www\kohana3.3\application\classes\Twitter.php(83): EpiTwitter->get('/statuses/direc...')
+#4 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(18): Twitter->get_retweets()
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#6 [internal function]: Kohana_Controller->execute()
+#7 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#8 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#10 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#11 {main} in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 06:21:19 --- CRITICAL: EpiTwitterForbiddenException [ 403 ]: {"errors":[{"code":93,"message":"This application is not allowed to access or delete your direct messages"}]} ~ APPPATH\helpers\EpiTwitter.php [ 258 ] in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
+2013-05-31 06:21:19 --- DEBUG: #0 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(219): EpiTwitterException::raise(Object(EpiCurlManager), false)
+#1 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(120): EpiTwitterJson->__get('response')
+#2 C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php(37): EpiTwitter->request('GET', '/direct_message...', NULL)
+#3 C:\wamp\www\kohana3.3\application\classes\Twitter.php(83): EpiTwitter->get('/direct_message...')
+#4 C:\wamp\www\kohana3.3\application\classes\Controller\Twitter.php(18): Twitter->get_retweets()
+#5 C:\wamp\www\kohana3.3\system\classes\Kohana\Controller.php(84): Controller_Twitter->action_index()
+#6 [internal function]: Kohana_Controller->execute()
+#7 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Twitter))
+#8 C:\wamp\www\kohana3.3\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#9 C:\wamp\www\kohana3.3\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
+#10 C:\wamp\www\kohana3.3\index.php(118): Kohana_Request->execute()
+#11 {main} in C:\wamp\www\kohana3.3\application\helpers\EpiTwitter.php:219
